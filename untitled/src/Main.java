@@ -4,10 +4,16 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
         Scanner sc = new Scanner(System.in);
-        System.out.println("What is your name?");
+
+        System.out.println("Name: ");
         String name = sc.nextLine();
-        System.out.println("Hello " + name + " again.");
+
+        System.out.println("Age: ");
+        int age = sc.nextInt();
+
+        age++;
+        System.out.println("My age is : " + age + " and my name : " + name);
+        System.out.printf("My age is: %d + and my name: %s", age, name);
     }
 }
