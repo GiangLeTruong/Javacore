@@ -4,9 +4,10 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        int n;
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        double b = sc.nextDouble();
-        System.out.println(Math.pow(a,b));
+        n=sc.nextInt();
+        String[] country=new String[n];
+        System.out.println(country[0]);
     }
 }
